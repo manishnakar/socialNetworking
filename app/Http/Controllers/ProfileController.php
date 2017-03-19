@@ -15,9 +15,9 @@ class ProfileController extends Controller
      */
     public function index($username)
     {
-        $username = User::whereUsername($username)->first();
+        $user = User::whereUsername($username)->first();
 
-        return $username;
+        return view('user.profile',compact('user'));
     }
 
     /**
