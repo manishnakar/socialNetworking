@@ -1,6 +1,19 @@
 @extends('layouts.app')
 
 @section('content')
+
+
+<script>
+    $(function(){
+        if (!Modernizr.inputtypes.date) {
+            $('input[type=date]').datepicker({
+                  dateFormat : 'yy-mm-dd'
+                }
+             );
+        }
+    });
+</script>
+
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
