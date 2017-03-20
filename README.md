@@ -13,3 +13,5 @@ Create Laravel Auth
  `php artisan make:auth`
 
 
+
+Email Me at manish.nakar
