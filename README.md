@@ -14,10 +14,6 @@ Create Laravel Auth
 
 
 
-<<<<<<< HEAD
-Email Me at manish.nakar
-=======
-
 #Add view composer
 
 `php artisan make:provider ComposerServiceProvider`
@@ -34,8 +30,3 @@ In composerServiceProvider boot function
 
 Now go to view and echo the variable
 
-
-
-
-
->>>>>>> repository-pettern
