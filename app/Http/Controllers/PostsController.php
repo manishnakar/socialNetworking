@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Http\Repository\PostInterface;
+
 use App\Post;
 use Auth;
 
@@ -12,6 +14,16 @@ use DB;
 
 class PostsController extends Controller
 {
+
+    public $post;
+
+    public function __construct(PostInterface $post)
+    {
+
+        $this->post = $post;
+
+    }
+
     /**
      * Display a listing of the resource.
      *

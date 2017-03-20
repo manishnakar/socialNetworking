@@ -14,4 +14,28 @@ Create Laravel Auth
 
 
 
+<<<<<<< HEAD
 Email Me at manish.nakar
+=======
+
+#Add view composer
+
+`php artisan make:provider ComposerServiceProvider`
+
+
+Add the ComposerServiceProvider class to config/app.php array for providers so that laravel is able to identify it.
+Create a new Folder inside App/Http ViewComposer
+
+create a new file PostsComposer.php
+
+In composerServiceProvider boot function
+
+	 `View::composer('posts.create', 'App\Http\ViewComposer\PostsComposer');`
+
+Now go to view and echo the variable
+
+
+
+
+
+>>>>>>> repository-pettern

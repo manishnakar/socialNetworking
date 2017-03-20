@@ -8,7 +8,8 @@
 	<dic class="col-md-6 col-md-offset-3">
 		<div class="panel panel-default">
 		<div class="panel-heading">
-		Create Post
+		Create Post {{ $latestPosts }}
+
 			</div>
 
 			<div class="panel-body text-center">
