@@ -178,6 +178,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+            View composer by Manish Nakar
+         */
+        App\Providers\ComposerServiceProvider::class,
+
     ],
 
     /*
