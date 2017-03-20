@@ -30,4 +30,11 @@ class User extends Authenticatable
     protected $dates = [
         'dob',
     ];
+
+    // public function getDateFormat()
+    // {
+    //     return ($this->getConnection() instanceof Illuminate\Database\SqlServerConnection)
+    //         ? 'M d Y H:i:s:000A'
+    //         : parent::getDateFormat();
+    // }
 }
