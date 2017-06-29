@@ -1,5 +1,6 @@
 
 [![StyleCI](https://styleci.io/repos/85481364/shield?branch=master)](https://styleci.io/repos/85481364)
+[![Build Status](https://travis-ci.org/laravel/socialite.svg?branch=master)](https://travis-ci.org/laravel/socialite)
 
 # SocialNetworking
 Social Networking site with Laravel 5.4
