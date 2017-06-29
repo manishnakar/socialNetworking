@@ -23,6 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-         $this->app->bind('App\Http\Repository\PostInterface', 'App\Http\Repository\PostRepository');
+        $this->app->bind('App\Http\Repository\PostInterface', 'App\Http\Repository\PostRepository');
     }
 }
