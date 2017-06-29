@@ -1,3 +1,6 @@
+
+[![StyleCI](https://styleci.io/repos/85481364/shield?branch=master)](https://styleci.io/repos/85481364)
+
 # SocialNetworking
 Social Networking site with Laravel 5.4
 
