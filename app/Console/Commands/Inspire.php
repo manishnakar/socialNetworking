@@ -1,7 +1,10 @@
 <?php
+
 namespace App\Console\Commands;
+
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;
+
 class Inspire extends Command
 {
     /**
@@ -16,6 +19,7 @@ class Inspire extends Command
      * @var string
      */
     protected $description = 'Display an inspiring quote';
+
     /**
      * Execute the console command.
      *
