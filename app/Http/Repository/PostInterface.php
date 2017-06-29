@@ -2,14 +2,11 @@
 
 namespace App\Http\Repository;
 
-interface PostInterface {
+interface PostInterface
+{
+    public function getAllPosts();
 
-	public function getAllPosts();
+    public function getPostById($id);
 
-	public function getPostById($id);
-
-	public function createOrUpdate($id = null);
-
-
+    public function createOrUpdate($id = null);
 }
-
